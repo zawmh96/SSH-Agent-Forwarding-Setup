@@ -47,8 +47,8 @@ Host server1
   HostName server1-ip-address
 
 Host server2
-    HostName server2-ip-address
-    User your_username
+  User your_username
+  HostName server2-ip-address
 ```
 Replace **server-x ip address** with your remote **server's IP address** and **your_username** with **your actual username** on the remote server.   
 If you want to enable forwarding for all hosts, you can use Host *.
